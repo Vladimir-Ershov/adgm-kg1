@@ -1,6 +1,7 @@
 # Neo4j dump
 
-The simpliest way to setup the knowledge graph is to restore it from the `kg2_release.dump` with [Neo4j](https://neo4j.com/)
+The simplest way to setup the knowledge graph is to restore it from the `kg2_release.dump` with [Neo4j](https://neo4j.com/)
+Just add the dump file in the Files section and select the `Create new DBMS from dump` option.
 
 # Raw cypher queries
 
