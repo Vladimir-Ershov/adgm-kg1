@@ -1,4 +1,4 @@
-# Knowledge Graph of ADGM Regulations
+# OpenRegs - Knowledge Graph of ADGM Regulations
 Regulatory Knowledge Graph built in collaboration with Abu Dhabi Global Market.
 
 # Introduction
