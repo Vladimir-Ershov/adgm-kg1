@@ -1,5 +1,8 @@
 # OpenRegs - Knowledge Graph of ADGM Regulations
 Regulatory Knowledge Graph built in collaboration with Abu Dhabi Global Market.
+O
+[Original paper: A case study for Compliance as Code with graphs and language models: public release of the Regulatory Knowledge Graph
+](https://4623737.fs1.hubspotusercontent-na1.net/hubfs/4623737/kg_stage1.pdf).
 
 # Introduction
 
@@ -45,13 +48,16 @@ level vision of the Knowledge Graph project [here in athe article at Linkedin](h
 
 [Spacy](https://spacy.io) To train NER models for nodes creation and custom `lemmatizer`:
 
-Bert-based NER                                    | Labeled Docs FPR 
----------------------------------------- |:-----------------:
-ACT-FS-PROD           | 98.57/98.92/98.23 
-TECH |  93.87/94/93.73  
-RISK-MIT             | 51.71/47.02/57.43 
-PERM   |   93.64/91.01/96.43 
-ENT | 99.45/99.34/99.56
+Bert-based NER                                    |     Precision     | Recall | F1 
+------------------- |:-----------------:|:------:|:-----------------:
+ACT           |       91.03       | 91.67  |91.35 
+FS           |       94.97       | 79.41  |86.50
+PROD           |       90.32       | 93.33  |91.80
+TECH |        94         |93.73|93.87    
+RISK            |       86.24       | 80.50 | 83.27
+MIT            |       81.54       | 55.58 | 66.11
+PERM   | 91.01 | 96.43 | 93.64 
+ENT | 96.57 |  97.40 | 96.98
 
 POS-Regexp based models                                    | Size | Source
 ---------------------------------------- |:----:| :----------------:
